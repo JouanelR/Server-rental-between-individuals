@@ -1,0 +1,94 @@
+CREATE DATABASE if not exists server_rental;
+USE server_rental;
+
+
+DROP TABLE if exists offer;
+DROP TABLE if exists servers;
+DROP TABLE if exists users;
+CREATE TABLE users (
+    user_id int auto_increment primary key, 
+    user_LastName varchar(30),
+    user_FirstName varchar(30),
+    user_birthday date,
+    user_mail varchar(50),
+    user_paypal varchar(50),
+    user_phone varchar(50),
+    seller boolean,
+    buyer boolean,
+    nbBuy int,
+    nbSell int
+);
+
+CREATE TABLE servers (
+    servers_id int auto_increment primary key,
+    servers_name varchar(100),
+    servers_vproc float,
+    servers_ram int,
+    servers_typeRam varchar(50),
+    servers_typeStockage varchar(50),
+    servers_capacityStockage float,
+    servers_bandwidth float, #in mbs/s
+    servers_GPU_Name varchar(50),
+    servers_GPU_Cap float,
+    servers_GPU_typeCap varchar(6),
+    servers_first_howner_id int,
+    CONSTRAINT fk_servers_userf FOREIGN KEY (servers_first_howner_id) REFERENCES users(user_id),
+    servers_tenant_howner_id int, 
+    CONSTRAINT fk_servers_userh FOREIGN KEY (servers_tenant_howner_id) REFERENCES users(user_id));
+    
+    
+CREATE TABLE offer (
+    offer_id int auto_increment primary key,
+    offer_localisation varchar(50),
+    offer_type varchar(20),
+    offer_period int,
+    offer_recommendation varchar(100),
+    offer_title varchar(100),
+    offer_price float, #in euro
+    offer_user_id int,
+    CONSTRAINT fk_offer_users FOREIGN KEY (offer_user_id) REFERENCES users(user_id),
+    offer_servers_id int,
+    CONSTRAINT fk_offer_servers FOREIGN KEY (offer_servers_id) REFERENCES servers(servers_id)
+);
+
+
+INSERT INTO users VALUES
+    (1,'Bisbau','Louise',2001-11-05,'bisbau.louise@gmail.com','bisbau.louise@gmail.com','+33653565753',1,1,1,2),
+    (2,'Jouanel','Romain',2001-12-30,'jouanel.rom@gmail.com','jouanel.rom@gmail.com','+33651405253',1,1,1,1), 
+    (3,'Teillet','Arnaud',2001-1-10,'arnaud.tel@gmail.com','arnaud.tel@gmail.com','+33723658634',1,0,0,0), 
+    (4,'Kasbaoui','Kais',2000-2-23,'kk@gmail.com','kk@gmail.com','+33612245664',1,1,3,2), 
+    (5,'Peron','Corentin',2001-09-20,'coco.peon@gmail.com','coco.peon@gmail.com','+33655667733',1,0,0,0),
+    (6,'Gallet','Alexis',2001-10-20,'gallet.alexis@gmail.com','gallet.alexis@gmail.com','+33695804160',0,1,0,0),
+    (7,'Alexandre','Florian',2001-5-13,'alexandre.florian@gmail.com','alexandre.florian@gmail.com','+33766006662',1,1,2,2),
+    (8,'Pinardin','Theo',2001-10-17,'pinardin.theo17@gmail.com','pinardin.theo17@gmail.com','+33695114597',1,0,0,2),
+    (9,'Valence','Agathe',2001-2-25,'valence.agathe@gmail.com','valence.agathe@gmail.com','+33646661517',0,1,0,0),
+    (10,'Lampin','Antonin',2001-3-06,'anto.lamp@gmail.com','anto.lamp@gmail.com','+33612345678',1,0,0,1);
+ 
+
+INSERT INTO servers VALUES
+    (1,'Intel® Bi-Xeon® Silver',2.1,128,'DDR4','SSD',1000,1024,NULL,NULL,NULL,2,1),
+    (2,'Intel® Xeon® E3 1230v5',3.14,16,'DR4','HDD',1000,1024,'GeForce GTX 1070',8,'GDDR5',1,2),
+    (3,'Intel® Xeon® E3 1220v5',3,8,'DDR4','SSD',240,1024,'GeForce GT 710',1,'GDDR5',1,NULL),
+    (4,'Raspberry Pi 4 ARM v8',1.5,4,'DDR4','SSD',120,1024,'NVIDIA GeForce RTX 3060',6,'GDDR6',4,7),
+    (5,'Intel Core i7-11800H',2.3,16,'DDR4','SSD',1000,1024,NULL,NULL,NULL,7,4),
+    (6,'Intel Core i7-10750H',2.6,32,'DDR4','SSD',2000,1024,'NVIDIA GeForce RTX 2080 SUPER',8,'GDDR6',4,7),
+    (7,'Intel Core i7-11800H',2.3,16,'DDR4','SSD',1000,1024,'NVIDIA GeForce RTX 3080',8,'GDDR6',7,NULL),
+    (8,'Intel Core i5-10300H',2.5,8,'DDR4','SSD',512,1024,'NVIDIA GeForce GTX 1650 Ti',4,'GRDD6',8,4),
+    (9,'Intel Celeron N4020',1.1,4,'DDR4','SSD eMMC',64,1024,'Intel UHD Graphics 600',NULL,NULL,10,NULL),
+    (10,'Intel Core i3-10110U',2.1,8,'DDR4','SSD',256,1024,'Intel UHD Graphics',NULL,NULL,8,4);
+    
+
+
+INSERT INTO offer VALUES
+    (1,'EU','month',2,'Minecraft Server','X-Silver Core',349.99,2,1),
+    (2,'NA','day',8,'MariaDB,Apache,Open JDK','Agile S',29.99,1,2),
+    (3,'EU','month',1,'Minecraft Server,MariaDB,Apache','GPU Master',249.99,1,3),
+    (4,'EU','month',3,'Virtualization,simulation','MICRO SERVEUR RASPBERRY PI 4',599.99,4,4),
+    (5,'NA','week',2,'MariaDB,Apache','GPU Master',99.99,7,5),
+    (6,'ASIA','month',6,'Minecraft Server','X-Silver Core',1199.99,4,6),
+    (7,'EU','month',4,'MariaDB,Apache','GPU Master',849.99,7,7),
+    (8,'EU','week',3,'Simulation','X-Silver Core',210.99,8,8),
+    (9,'ASIA','week',7,'MariaDB,Apache,Open JDK, virtualization, simulation','Intel Core',359.99,10,9),
+    (10,'EU','day',5,'Minecraft Server','Intel Core i3',15.99,8,10);
+
+
