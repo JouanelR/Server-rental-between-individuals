@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="74 33 1026 537" width="952px" height="504px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="845" y1="258" x2="835" y2="258" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="677" y1="272" x2="667" y2="272" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="835" y1="258" x2="677" y2="272" style="stroke:#0b0;stroke-width:1;"/>
+   <line x1="837.5" y1="258" x2="841.03553390593" y2="261.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="837.5" y1="258" x2="841.03553390593" y2="254.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="672" y1="272" x2="675.53553390593" y2="275.53553390593" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="672" y1="272" x2="675.53553390593" y2="268.46446609407" style="stroke:#0b0;stroke-width:2;"/>
+   <line x1="845" y1="238" x2="835" y2="238" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="219" y1="78" x2="209" y2="78" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="835" y1="238" x2="219" y2="78" style="stroke:#bbb;stroke-width:1;"/>
+   <line x1="837.5" y1="238" x2="841.03553390593" y2="241.53553390593" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="837.5" y1="238" x2="841.03553390593" y2="234.46446609407" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="81.535533905933" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="74.464466094067" style="stroke:#bbb;stroke-width:2;"/>
+   <line x1="474" y1="492" x2="464" y2="492" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="219" y1="78" x2="209" y2="78" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="464" y1="492" x2="219" y2="78" style="stroke:#c00;stroke-width:1;"/>
+   <line x1="466.5" y1="492" x2="470.03553390593" y2="495.53553390593" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="466.5" y1="492" x2="470.03553390593" y2="488.46446609407" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="81.535533905933" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="74.464466094067" style="stroke:#c00;stroke-width:2;"/>
+   <line x1="474" y1="512" x2="464" y2="512" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="219" y1="78" x2="209" y2="78" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="464" y1="512" x2="219" y2="78" style="stroke:#b0b;stroke-width:1;"/>
+   <line x1="466.5" y1="512" x2="470.03553390593" y2="515.53553390593" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="466.5" y1="512" x2="470.03553390593" y2="508.46446609407" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="81.535533905933" style="stroke:#b0b;stroke-width:2;"/>
+   <line x1="214" y1="78" x2="217.53553390593" y2="74.464466094067" style="stroke:#b0b;stroke-width:2;"/>
+   <rect width="166" height="20" x="845" y="68" style="fill:#007;stroke:black;"/>
+   <text width="166" height="20" x="850" y="82" style="fill:#fff;" font-family="Arial" font-size="16px"> offer</text>
+   <rect width="166" height="20" x="845" y="88" style="fill:#aea;stroke:black;"/>
+   <text width="166" height="20" x="850" y="102" style="fill:black;" font-family="Arial" font-size="16px">offer_id</text>
+   <rect width="166" height="20" x="845" y="108" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="122" style="fill:black;" font-family="Arial" font-size="16px">offer_localisation</text>
+   <rect width="166" height="20" x="845" y="128" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="142" style="fill:black;" font-family="Arial" font-size="16px">offer_type</text>
+   <rect width="166" height="20" x="845" y="148" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="162" style="fill:black;" font-family="Arial" font-size="16px">offer_period</text>
+   <rect width="166" height="20" x="845" y="168" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="182" style="fill:black;" font-family="Arial" font-size="16px">offer_recommendation</text>
+   <rect width="166" height="20" x="845" y="188" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="202" style="fill:black;" font-family="Arial" font-size="16px">offer_title</text>
+   <rect width="166" height="20" x="845" y="208" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="222" style="fill:black;" font-family="Arial" font-size="16px">offer_price</text>
+   <rect width="166" height="20" x="845" y="228" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="242" style="fill:black;" font-family="Arial" font-size="16px">offer_user_id</text>
+   <rect width="166" height="20" x="845" y="248" style="fill:none;stroke:black;"/>
+   <text width="166" height="20" x="850" y="262" style="fill:black;" font-family="Arial" font-size="16px">offer_servers_id</text>
+   <rect width="193" height="20" x="474" y="242" style="fill:#007;stroke:black;"/>
+   <text width="193" height="20" x="479" y="256" style="fill:#fff;" font-family="Arial" font-size="16px"> servers</text>
+   <rect width="193" height="20" x="474" y="262" style="fill:#aea;stroke:black;"/>
+   <text width="193" height="20" x="479" y="276" style="fill:black;" font-family="Arial" font-size="16px">servers_id</text>
+   <rect width="193" height="20" x="474" y="282" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="296" style="fill:black;" font-family="Arial" font-size="16px">servers_name</text>
+   <rect width="193" height="20" x="474" y="302" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="316" style="fill:black;" font-family="Arial" font-size="16px">servers_vproc</text>
+   <rect width="193" height="20" x="474" y="322" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="336" style="fill:black;" font-family="Arial" font-size="16px">servers_ram</text>
+   <rect width="193" height="20" x="474" y="342" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="356" style="fill:black;" font-family="Arial" font-size="16px">servers_typeRam</text>
+   <rect width="193" height="20" x="474" y="362" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="376" style="fill:black;" font-family="Arial" font-size="16px">servers_typeStockage</text>
+   <rect width="193" height="20" x="474" y="382" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="396" style="fill:black;" font-family="Arial" font-size="16px">servers_capacityStockage</text>
+   <rect width="193" height="20" x="474" y="402" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="416" style="fill:black;" font-family="Arial" font-size="16px">servers_bandwidth</text>
+   <rect width="193" height="20" x="474" y="422" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="436" style="fill:black;" font-family="Arial" font-size="16px">servers_GPU_Name</text>
+   <rect width="193" height="20" x="474" y="442" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="456" style="fill:black;" font-family="Arial" font-size="16px">servers_GPU_Cap</text>
+   <rect width="193" height="20" x="474" y="462" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="476" style="fill:black;" font-family="Arial" font-size="16px">servers_GPU_typeCap</text>
+   <rect width="193" height="20" x="474" y="482" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="496" style="fill:black;" font-family="Arial" font-size="16px">servers_first_howner_id</text>
+   <rect width="193" height="20" x="474" y="502" style="fill:none;stroke:black;"/>
+   <text width="193" height="20" x="479" y="516" style="fill:black;" font-family="Arial" font-size="16px">servers_tenant_howner_id</text>
+   <rect width="120" height="20" x="89" y="48" style="fill:#007;stroke:black;"/>
+   <text width="120" height="20" x="94" y="62" style="fill:#fff;" font-family="Arial" font-size="16px"> users</text>
+   <rect width="120" height="20" x="89" y="68" style="fill:#aea;stroke:black;"/>
+   <text width="120" height="20" x="94" y="82" style="fill:black;" font-family="Arial" font-size="16px">user_id</text>
+   <rect width="120" height="20" x="89" y="88" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="102" style="fill:black;" font-family="Arial" font-size="16px">user_LastName</text>
+   <rect width="120" height="20" x="89" y="108" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="122" style="fill:black;" font-family="Arial" font-size="16px">user_FirstName</text>
+   <rect width="120" height="20" x="89" y="128" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="142" style="fill:black;" font-family="Arial" font-size="16px">user_birthday</text>
+   <rect width="120" height="20" x="89" y="148" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="162" style="fill:black;" font-family="Arial" font-size="16px">user_mail</text>
+   <rect width="120" height="20" x="89" y="168" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="182" style="fill:black;" font-family="Arial" font-size="16px">user_paypal</text>
+   <rect width="120" height="20" x="89" y="188" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="202" style="fill:black;" font-family="Arial" font-size="16px">user_phone</text>
+   <rect width="120" height="20" x="89" y="208" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="222" style="fill:black;" font-family="Arial" font-size="16px">seller</text>
+   <rect width="120" height="20" x="89" y="228" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="242" style="fill:black;" font-family="Arial" font-size="16px">buyer</text>
+   <rect width="120" height="20" x="89" y="248" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="262" style="fill:black;" font-family="Arial" font-size="16px">nbBuy</text>
+   <rect width="120" height="20" x="89" y="268" style="fill:none;stroke:black;"/>
+   <text width="120" height="20" x="94" y="282" style="fill:black;" font-family="Arial" font-size="16px">nbSell</text>
+</svg>
